@@ -1,6 +1,6 @@
 baseurl = "https://marvin71.github.io"
 DefaultContentLanguage = "en"
-title = "Beautiful Hugo"
+title = "Marvin Meiers"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
@@ -11,15 +11,16 @@ pygmentsCodefencesGuessSyntax = true
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 
+enableGitInfo = true
 [Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+  homeTitle = "Marvin Meiers" # Set a different text for the header on the home page
+#  subtitle = "Hello there"
   #mainSections = ["post","posts"]
   mainSections = []
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
-  commit = true
+  commit = "https://github.com/marvin71/marvin71.github.io/tree/"
   rss = false
   comments = false
   readingTime = false
